@@ -13,13 +13,15 @@ Xcode plug-ins install http://alcatraz.io/ then
 - HighlightSelectedString [Github](https://github.com/keepyounger/HighlightSelectedString)
 
 ## Code
-- Prefer **let** over **var**  
+- Prefer ```let``` over ```var```  
 declare let by default, change to var when needed.
-- Return function early using **guard** [Why guard better than if?](http://natashatherobot.com/swift-guard-better-than-if/)
-- **Don't force-unwrapping** Don't get value with **foo!.function()** instead use
-> if let foo = foo {  
-}   
+- Return function early using ```guard``` [Why guard better than if?](http://natashatherobot.com/swift-guard-better-than-if/)
+- **Don't force-unwrapping** Don't get value with ```foo!.function()``` instead use
+```
+if let foo = foo {  
+}```   
 or  
-foo?.callFooBar()
-- Explicit optional declare use **let foo:FooType?** instead of **let foo:FooType!** if **foo** may be nil
-- Only refer to **self** when required
+```
+foo?.callFooBar()```
+- Explicit optional declare use ```let foo:FooType?``` instead of ```let foo:FooType!``` if ```foo``` may be nil
+- Only refer to ```self``` when required
