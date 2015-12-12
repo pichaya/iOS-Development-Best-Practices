@@ -19,9 +19,11 @@ declare let by default, change to var when needed.
 - **Don't force-unwrapping** Don't get value with ```foo!.function()``` instead use
 ```
 if let foo = foo {  
-}```   
+}
+```
 or  
 ```
-foo?.callFooBar()```
+foo?.callFooBar()
+```
 - Explicit optional declare use ```let foo:FooType?``` instead of ```let foo:FooType!``` if ```foo``` may be nil
 - Only refer to ```self``` when required
